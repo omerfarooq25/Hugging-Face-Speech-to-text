@@ -39,25 +39,19 @@ Hugging_face_Speech_to_Text/
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
-
-```bash
+```
 git clone https://github.com/your-username/Hugging_face_Speech_to_Text.git
 cd Hugging_face_Speech_to_Text
-2. Install Dependencies
+```
+### 2. Install Dependencies
 Make sure you have Python 3.8+ installed.
 
-bash
-Copy
-Edit
-pip install torch transformers librosa soundfile
+```pip install torch transformers librosa soundfile```
 3. Run the Notebook
 You can open and run the notebook using Jupyter or VS Code:
 
-bash
-Copy
-Edit
-jupyter notebook Hugging_face_Speech_to_Text.ipynb
-📋 How It Works
+```jupyter notebook Hugging_face_Speech_to_Text.ipynb```
+### 📋 How It Works
 Load Audio: The notebook reads a .wav audio file.
 
 Preprocessing: Uses librosa to ensure audio is sampled at 16kHz.
@@ -68,15 +62,13 @@ Transcription: The audio input is passed through the ASR pipeline.
 
 Output: Transcribed text is printed.
 
-📷 Example Output
+### 📷 Example Output
 Input: sample.wav (an audio file saying "Hello, how are you?")
 Output:
 
-text
-Copy
-Edit
 hello how are you
-💡 Use Cases
+
+###💡 Use Cases
 Voice note transcription
 
 Voice-controlled applications
@@ -85,20 +77,20 @@ Accessibility tools for hearing impaired
 
 Language learning & pronunciation
 
-📚 Resources
+### 📚 Resources
 Hugging Face Transformers Documentation
 
 Wav2Vec2 Model Card
 
 Librosa Documentation
 
-🤝 Contributing
+### 🤝 Contributing
 Pull requests are welcome! If you find a bug or have a feature request, please open an issue.
 
-📄 License
+### 📄 License
 This project is open-source and available under the MIT License.
 
-🙋‍♂️ Acknowledgements
+### 🙋‍♂️ Acknowledgements
 Special thanks to Hugging Face for their fantastic open-source contributions in NLP and speech processing.
 
 
